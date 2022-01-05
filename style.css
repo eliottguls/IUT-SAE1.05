@@ -1,22 +1,97 @@
-body
-{
-    background-color: #9bd1e5;
+
+body{
     margin: 0;
     padding: 0;
+    height: 100em;
+    background-color: #9bd1e5;
+    font-style: sans-serif;
 }
-header
-{
-    background-color: red;
-    margin: 0 0 5em 0;
+
+/** ----- HEADER ----- **/ 
+
+header{
+    height: auto;
 }
-article
-{
+
+header div{
+    height: 150px;
+    background-image: url(ressources_graphiques/PHOTOS/glace.png);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content:space-between;
+    color: #133949;
+}
+
+header div img{
+    margin: 5px;
+}
+
+
+header div p{
+    font-size: 300%;
+    margin: 10px;
+    text-align: right;
+} 
+
+header nav{
+    margin: 30px 50px;
+    width: 70%;
+    margin: 50px auto ;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: initial;
+}
+
+header nav ul hr{
+    background-color: #045858;
+    width: 5px;
+    border: none;
+    border-radius:5px ;
+    margin: 10px;
+}
+
+header nav ul a li{
+    background-color: #045858;
+    list-style: none;
+    padding: 20px 50px;
+    border-radius: 15px;
+    font-size : 40px;
+}
+
+header nav ul a {
+    color: #FFF2E0;
+    text-decoration: none;
+    
+}
+
+header nav ul a :hover{
+    background-color: #FFF2E0;
+    color: #045858;
+    
+}
+
+/** ---- CAROUSEL ---- **/
+.texte{
+    color:#FFF2E0;
+    margin-left: 50px;
+}
+
+/** ---- ARTICLE ICONE ---- **/ 
+
+
+article{
     display: flex; 
     justify-content:center;
     background-color: #133949;
     color: white;
     align-items:flex-end;
+    margin: 15px;
 }
+
 
 figure{
     justify-content:center;
@@ -25,8 +100,7 @@ figure{
     
 }
 
-img
-{
+img{
     flex-wrap: wrap;
     width:100px;
 
@@ -36,3 +110,15 @@ figcaption{
     font-size: 2em;
 }
 
+/** ---- ARTICLE PRODUIT ---- **/
+article img{
+    width: 262px !important;
+    height: 400px !important;
+}
+
+/** ---- CAROUSEL ---- **/
+
+.texte{
+  color:#FFF2E0;
+  margin-left: 50px;
+}
