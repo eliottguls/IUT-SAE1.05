@@ -74,11 +74,12 @@ header nav ul a :hover{
     
 }
 
-/** ---- CAROUSEL ---- **/
-.texte{
-    color:#FFF2E0;
-    margin-left: 50px;
+/** ----- CAROUSSEL ----- **/ 
+.caroussel{
+    margin: 50px auto;
+    width: 70%;
 }
+
 
 /** ---- ARTICLE ICONE ---- **/ 
 
