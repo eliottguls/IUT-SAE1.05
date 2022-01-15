@@ -113,6 +113,7 @@ figcaption{
     margin : 50px;
     width: 350px;
     height : 500px;
+    margin-left: 200px;
 }
 
 .txt_art_prod{
@@ -127,7 +128,7 @@ figcaption{
     background-color: #133949;
     color: white;
     align-items:center;
-    margin: 15px 125px;
+    margin: 150px;
     height : auto;
     border-radius: 1em;
 }
