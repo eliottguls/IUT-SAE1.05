@@ -25,6 +25,7 @@ header div{
 
 header div img{
     margin: 5px;
+    width : 200px;
 }
 
 
@@ -81,9 +82,7 @@ header nav ul a :hover{
 }
 
 /** ---- ARTICLE ICONE ---- **/ 
-
-
-article{
+.arti_icone{
     display: flex; 
     justify-content:center;
     background-color: #133949;
@@ -103,7 +102,6 @@ figure{
 img{
     flex-wrap: wrap;
     width:100px;
-
 }
 
 figcaption{
@@ -111,9 +109,31 @@ figcaption{
 }
 
 /** ---- ARTICLE PRODUIT ---- **/
-article img{
-    width: 262px !important;
-    height: 400px !important;
+.img_art_prod{
+    margin : 50px;
+    width: 350px;
+    height : 500px;
+    margin-left: 200px;
+
+}
+
+.txt_art_prod{
+    width: 50%;
+    margin : 0 5px;
+    
+    
+}
+
+.article_prod{
+    display: flex; 
+    flex-direction: row;
+    justify-content:flex-start;
+    background-color: #133949;
+    color: white;
+    align-items:center;
+    margin: 150px;
+    height : auto;
+    border-radius: 1em;
 }
 
 /** ---- CAROUSEL ---- **/
@@ -122,3 +142,7 @@ article img{
   color:#FFF2E0;
   margin-left: 50px;
 }
+
+
+/** charte graphique, démonstration(responsive/interactivité) , 12 min 
+support visuel a deposer sur teams */
