@@ -1,0 +1,49 @@
+body
+{
+    background-color: #9bd1e5;
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    background-color: red;
+    padding: 0;
+    margin: 0 0 5em 0;
+}
+article
+{
+    display: flex; 
+    justify-content:center;
+    background-color: #133949;
+    color: white;
+    align-items:flex-end;
+    margin: 5em;
+}
+
+figure{
+    justify-content:center;
+    text-align: center;
+    margin: 50px;
+    
+}
+
+p{
+   
+    flex-wrap: wrap;
+    justify-content:center;
+    text-align: center;
+    font-size: 1.5em;    
+    padding: 2em;
+}
+
+img
+{
+    flex-wrap: wrap;
+    width:100px;
+
+}
+
+figcaption{
+    font-size: 2em;
+}
+
